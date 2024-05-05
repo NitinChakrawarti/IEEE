@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.heading{
+    font-size: 4vmax;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    margin-top: 2vmax;
+
+ 
+}
+
+
+.login_page {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 3vmax;
+}
+.login_left {
+  width: 45vmax;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+ form {
+  width: 38vmax;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  margin-left: 7vmax;
+  label {
+    font-size: 1.5vmax;
+    padding-bottom: 1vmax;
+  }
+  input{
+    margin-bottom: 2vmax;
+    border: none;
+    border-bottom: 1px solid #333;
+    width: 80%;
+    font-size: 1.4vmax;
+  }
+  
+ 
+  
+}
+input:focus {
+  outline: none;
+}
+
+.login_right h3 {
+  font-size: 2.5vmax;
+  font-weight: 600;
+  margin-bottom: 4vmax;
+  color: #333;
+}
+.check_box {
+  display: flex;
+  width: 100%;
+  p{
+    font-size: 1.3vmax;
+  }
+}
+#remember{
+    width: 1.3vmax;
+    height: 1.3vmax;
+    border: none;
+    border: 2px solid #333;
+    border-radius: 2vmax;
+    margin-top: 0.4vmax;
+    margin-left: 1vmax;
+    margin-right: 8vmax;
+}
+.login_btn {
+  border: none;
+  font-weight: 600;
+  height: 3vmax;
+  width: 8vmax;
+  font-size: 1.3vmax;
+  color: white;
+  border-radius: 1.8vmax;
+  background-color: royalblue;
+}
+.signup{
+    margin-left: 7vmax;
+    margin-top: 3vmax;
+    span{
+        a{
+            text-decoration: none;
+            color: blue;
+        }
+    }
+}
